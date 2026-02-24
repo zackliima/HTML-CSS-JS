@@ -10,11 +10,20 @@
 }
 
 body {
+    /*
     height: 100%;
     margin: 50px 0px 0px 0px;
     background-color: var(--colorbck);
     background-image: var(--imgbck);
-    background-repeat: repeat; /* Resta resolver a repetição de imagem aqui */
+    background-position: center center;
+    background-repeat: repeat; <- Resta resolver a repetição de imagem aqui
+    background-size: cover;
+    background-attachment: fixed; */
+
+    /* ShortHand - Background
+    Color > Image > Position > repeat > size (ainda sem aplicação nos navegadores) > attachment */
+
+    background: var(--colorbck) var(--imgbck) center center no-repeat fixed;
     background-size: cover;
 }
 
