@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+#container {
+    height: 500px;
+    width: auto;
+    max-width: 1050px;
+    background-color: purple;
+    position: relative;
+}
+
+#content {
+    height: 250px;
+    width: auto;
+    max-width: 850px;
+    background-color: yellow;
+}
