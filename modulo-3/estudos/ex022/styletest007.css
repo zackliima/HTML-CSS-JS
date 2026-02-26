@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+#container {
+    height: 98vh;
+    position: relative;
+    background: #BD7DF5 url(imagens/target001.png) center center no-repeat fixed;
+    background-size: 100% 100%;
+}
+
+#content {
+    height: 200px;
+    width: 300px;
+    background-color: #F5FF40;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+
+    transform: translate(-50%, -50%);
+    background-image: url(imagens/target001.png);
+    background-position: center center;
+}
